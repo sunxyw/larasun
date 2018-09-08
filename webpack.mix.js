@@ -11,5 +11,11 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.js('resources/js/app.js', 'public/js')
-   .sass('resources/sass/app.scss', 'public/css');
+mix.js('resources/js/app.js', 'public/js') // Build Js
+    .sass('resources/sass/app.scss', 'public/css') // Build Scss
+    .sourceMaps(); // Create Map Files (For Dev Only)
+
+// For Production only
+if (mix.config.inProduction) {
+    mix.version(); // Add Unique Hash To Disable Cache
+}

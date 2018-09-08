@@ -1,14 +1,15 @@
-
-// Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
-
 // Variables
-@import 'variables';
+@import "variables";
+// Argon Design System
+@import "~argon-design-system-free/assets/scss/argon";
+// Fontawesome Icon
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+//@import "~@fortawesome/fontawesome-free/scss/brands";
+//@import "~@fortawesome/fontawesome-free/scss/regular";
 
-// Bootstrap
-@import '~bootstrap/scss/bootstrap';
+// Your styles here
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-}
+/*
+If the compiler reports an error, please goto 'node_modules/argon-design-system-free/assets/scss/custom' and remove all 'custom/'
+ */

@@ -1,7 +1,7 @@
 {
-    "name": "laravel/laravel",
-    "description": "The Laravel Framework.",
-    "keywords": ["framework", "laravel"],
+    "name": "sunxyw/larasun",
+    "description": "Custom Laravel for sunxyw. Base on Laravel 5.7.",
+    "keywords": ["framework", "laravel", "custom", "larasun"],
     "license": "MIT",
     "type": "project",
     "require": {
